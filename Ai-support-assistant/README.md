@@ -1,7 +1,6 @@
-# TCS AI Fridays – Customer Support AI Assistant
+AI  – Customer Support AI Assistant
 
 End-to-end project for **Automated Ticket Categorization and Response Suggestion**.
-Designed to run **inside the TCS GenAI Lab** using the provided base URL and models from the Participant Handbook.
 
 ## ✨ Features
 - Categorizes incoming tickets with an in-lab reasoning model.
