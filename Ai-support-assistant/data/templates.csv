@@ -1,0 +1,8 @@
+category,template_text
+Billing,We're sorry for the inconvenience. Please share the last 4 digits of the payment method and the transaction ID so we can verify and issue a refund if applicable.
+Billing,Thanks for contacting us about a duplicate charge. We have initiated a review. Refunds are processed within 3–5 business days once verified.
+Account Access,Please confirm your registered email and we’ll send a secure link to update your account access details.
+Login Issue,"Kindly try resetting your password using the 'Forgot Password' link. If the issue persists, let us know your username and browser version."
+Technical,"Thanks for reporting this. Could you share steps to reproduce, a screenshot, and the exact timestamp? We'll investigate immediately."
+Technical,"We’ve escalated this to our engineering team. Meanwhile, try clearing cache and restarting the app."
+Feedback,Thank you for your feedback! We’ve shared it with the product team. Your inputs help us prioritize improvements.
