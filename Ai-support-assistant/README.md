@@ -14,7 +14,7 @@ End-to-end project for **Automated Ticket Categorization and Response Suggestion
 Ticket → Categorizer (DeepSeek-V3-0324) → Embedding Retrieval (text-embedding-3-large + Chroma)
       → Generator (Llama-3.3-70B-Instruct or Llama-3.2-3B-it) → JSON/CSV Output
 ```
-All models accessed at `https://genailab.tcs.in` via `langchain_openai` per handbook.
+All models accessed at `https://genailab.XXX.in` via `langchain_openai` per handbook.
 
 ## 🚀 Quickstart
 1) **Install deps** (use the lab laptop):
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 2) **Set environment variables** (key will be provided by organizers):
 ```bash
-export GENAILAB_BASE_URL="https://genailab.tcs.in"
+export GENAILAB_BASE_URL="https://genailab.XXX.in"
 export GENAILAB_API_KEY="PASTE_YOUR_KEY"
 # Optional model overrides:
 # export CATEGORIZER_MODEL="azure_ai/genailab-maas-DeepSeek-V3-0324"
@@ -44,7 +44,7 @@ streamlit run src/app.py
 
 ## 📂 Project Structure
 ```
-tcs-ai-fridays-support-assistant/
+XXX-ai-fridays-support-assistant/
 ├── data/
 │   └── templates.csv
 ├── src/
@@ -73,4 +73,4 @@ Edit `data/templates.csv` to add your org-specific templates.
 - Avoids external APIs beyond the provided lab endpoint.
 
 ## 📜 License
-TCS Internal – For hackathon use.
+XXX Internal – For hackathon use.
