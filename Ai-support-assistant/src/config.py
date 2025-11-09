@@ -1,7 +1,7 @@
 import os
 
-# Base URL and API key come from environment (per TCS GenAI Lab handbook)
-BASE_URL = os.getenv("GENAILAB_BASE_URL", "https://genailab.tcs.in")
+# Base URL and API key come from environment (per XXX GenAI Lab handbook)
+BASE_URL = os.getenv("GENAILAB_BASE_URL", "https://genailab.XXX.in")
 API_KEY = os.getenv("GENAILAB_API_KEY", "sk-nKr66dLub27Nc7EjMmsUeQ")
 
 # Default models – override with env vars if needed
