@@ -11,7 +11,7 @@ DEFAULT_TEMPLATES = os.path.join(ROOT, "data", "templates.csv")
 
 #with st.expander("Environment (read-only)", expanded=False):
    # st.write({
-     #   "GENAILAB_BASE_URL": os.getenv("GENAILAB_BASE_URL", "https://genailab.tcs.in"),
+     #   "GENAILAB_BASE_URL": os.getenv("GENAILAB_BASE_URL", "https://genailab.XXX.in"),
     #    "CATEGORIZER_MODEL": os.getenv("CATEGORIZER_MODEL", "azure_ai/genailab-maas-DeepSeek-V3-0324"),
      #   "EMBEDDING_MODEL": os.getenv("EMBEDDING_MODEL", "azure/genailab-maas-text-embedding-3-large"),
      #   "GENERATOR_MODEL": os.getenv("GENERATOR_MODEL", "azure_ai/genailab-maas-Llama-3.3-70B-Instruct"),
@@ -29,11 +29,11 @@ templates_file = st.file_uploader("Upload image for issue", type=["csv"])
 #templates_file = st.file_uploader("Upload templates CSV (optional)", type=["csv"])
 
 team_mail={
-    "Billing" :["Costing Team","cost@tcs.com"],
-    "Account Access" :["Admin Team","admin@tcs.com"],
-    "Login Issue" :["Admin Team","admin@tcs.com"],
-    "Technical" :["IT Team","it@tcs.com"],
-    "Feedback" :["Support Team","support@tcs.com"]
+    "Billing" :["Costing Team","cost@XXX.com"],
+    "Account Access" :["Admin Team","admin@XXX.com"],
+    "Login Issue" :["Admin Team","admin@XXX.com"],
+    "Technical" :["IT Team","it@XXX.com"],
+    "Feedback" :["Support Team","support@XXX.com"]
 
 }
 if st.button("Submit Ticket", type="primary"):
@@ -77,4 +77,4 @@ if st.button("Submit Ticket", type="primary"):
     st.download_button("Download Response CSV", data=export_df.to_csv(index=False), file_name="ai_ticket_response.csv")
     st.download_button("Download Response JSON", data=json.dumps(payload, indent=2), file_name="ai_ticket_response.json")
 
-#st.caption("TCS Internal – AI Fridays Hackathon demo app.")
+#st.caption("XXX Internal – AI Fridays Hackathon demo app.")
